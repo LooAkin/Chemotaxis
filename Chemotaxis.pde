@@ -6,7 +6,6 @@ Walker [] colony;
 //Sets up size and values
 void setup() {
   strokeWeight(1);
-  stroke(255, 255, 255);
   size(1000, 1000);
   colony = new Walker[100];
   for (int i = 0; i < colony.length; i++)
