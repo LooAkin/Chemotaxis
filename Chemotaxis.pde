@@ -16,7 +16,7 @@ void setup() {
 
 //Draws all the witch hat bacteria
 void draw() {
-  fill(25, 25, 25);
+  fill(50,50,50);
   rect(0, 0, 1000, 1000);
   for (int i = 0; i < colony.length; i++)
   {
